@@ -3,11 +3,11 @@ using namespace std;
 
 int main() {
     int row;
-	int height;
+    int height;
 		
     cout << endl << "Pyramid Level Height: ";
-	cin >> row;
-	row = row + 1;
+    cin >> row;
+    row = row + 1;
     for (int i = 1, j = 0, k = 0; i <= row; i++, j = 0, k = 0) {
 		cout << endl;
 		for (int a = 1; a <= row - i; a++) {
